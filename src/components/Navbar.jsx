@@ -1,6 +1,6 @@
 import React from "react"
 
-import {Link} from "react-router-dom"
+import {NavLink} from "react-router-dom"
 
 const Navbar = () => {
 
@@ -9,11 +9,11 @@ const Navbar = () => {
 	    <div className="nav-stack-full">
 		<hr />
 		<div className="nav-width-center">
-		    <Link to="/" className="nav-link">About</Link>
-		<div className="color-green">|</div>
-		<Link to="/shop" className="nav-link">Shop</Link>
-		<div className="color-green">|</div>
-		<Link to="/videos" className="nav-link">Videos</Link>
+		    <NavLink id="nav-about" to="/" className="nav-link">About</NavLink>
+		    <div className="color-green">|</div>
+		    <NavLink to="/shop" className="nav-link">Shop</NavLink>
+		    <div className="color-green">|</div>
+		    <NavLink to="/videos" className="nav-link">Videos</NavLink>
 		</div>
 		<hr />
 	    </div>

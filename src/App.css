@@ -52,6 +52,7 @@ body {
     font-size: 30pt;
 }
 
+/* ----------Navbar---------- */
 .nav-width-full {
     width: 100%;
     display: flex;
@@ -86,6 +87,10 @@ body {
     color: var(--ui-green);
 }
 
+.active {
+    text-decoration: underline;
+    /* font-weight: bold; */
+}
 
 .shop-grid {
     width: 90%;
@@ -198,7 +203,7 @@ body {
 }
 
 .panther-info img {
-    width: 80%;
+    width: 70%;
     height: auto;
     border: 2px solid var(--ui-green);
     border-radius: 10px;
@@ -249,3 +254,46 @@ body {
     width: 80%;
     height: auto;
 }
+
+/* ----------Videos---------- */
+.video-body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 2;
+}
+
+.video {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.vid-content {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.vid-c-vid {
+    display: flex;
+    justify-content: center;
+}
+
+.vid-c-vid  img {
+    width: 50%;
+    height: auto;
+    border: 2px solid var(--ui-green);
+    border-radius: 10px;
+}
+
+.video hr {
+    width: 90%;
+    border-color: var(--ui-green);
+}
+
+
