@@ -164,6 +164,7 @@ body {
     width: 50%;
 }
 
+/* ----------About Page---------- */
 .comp-info {
     width: 100%;
     display: flex;
@@ -197,7 +198,7 @@ body {
 }
 
 .panther-info {
-    width: 70%;
+    width: 50%;
     display: grid;
     grid-template-columns: 2fr 3fr;
 }
@@ -209,6 +210,15 @@ body {
     border-radius: 10px;
 }
 
+.more-panther-pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.more-pic {
+    display: grid;
+    place-items: center;
+}
 
 /* ----------Experiments---------- */
 .exp-container {
