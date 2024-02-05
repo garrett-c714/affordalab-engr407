@@ -1,6 +1,7 @@
 import React from "react"
 
 import ShopFeatured from "./ShopFeatured"
+import ShopExperiments from "./ShopExperiments"
 
 const ShopGrid = () => {
 
@@ -12,6 +13,7 @@ const ShopGrid = () => {
 	    </div>
 	    <div className="shop-g shop-other">
 		<p className="shop-section-head">Experiments: </p>
+		<ShopExperiments />
 	    </div>
 	</div>
     );

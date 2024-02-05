@@ -12,7 +12,7 @@ const CompanyInfo = () => {
 		</div>
 		<div className="comp-about comp-content">
 		    <p className="blops color-green">About Us:</p>
-		    <p className="monst">We founded AffordaLab with a single, unifed purpose: To get more children interested in STEM, with a low barrier to entry</p>
+		    <p className="monst">We founded AffordaLab with a single, unifed purpose: To get more children interested in STEM, with a low barrier to entry. AffordaLab came to be with humble beginnings - from scraps in our univeristy's workshop.</p>
 		</div>
 	    </div>
 	    <hr />

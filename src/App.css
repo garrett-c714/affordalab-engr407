@@ -1,50 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:wght@300&display=swap');
 
-/*
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-*/
-
 h1 {
     margin: 0;
 }
@@ -165,6 +120,8 @@ body {
     min-height: 60%;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .f-text {
@@ -179,7 +136,7 @@ body {
 
 .feat-img {
     width: 90%;
-    height: auto;
+    height: 100%;
     /* object-fit: scale-down; */
 }
 
@@ -188,8 +145,10 @@ body {
     padding: 5px;
     color: white;
     border-radius: 20px;
+    cursor: pointer;
 }
-2
+
+
 .f-desc-foot {
     display: flex;
     justify-content: space-evenly;
@@ -210,9 +169,13 @@ body {
 
 .comp-split-grid {
     width: 70%;
+    /*
     display: flex;
     justify-content: space-evenly;
     align-items: top;
+   */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .comp-info  hr {
@@ -235,8 +198,54 @@ body {
 }
 
 .panther-info img {
-    width: 90%;
+    width: 80%;
     height: auto;
     border: 2px solid var(--ui-green);
     border-radius: 10px;
+}
+
+
+/* ----------Experiments---------- */
+.exp-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.shop-other {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-center;
+    align-items: center;
+}
+
+.exp-container {
+    width: 100%;
+}
+
+.experiment {
+    width: 20%;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    border-radius: 10px;
+    overflow: hidden;
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   */
+    border: 1px solid var(--ui-green);
+}
+
+.experiment-img {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.experiment-img img {
+    width: 80%;
+    height: auto;
 }

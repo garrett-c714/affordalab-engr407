@@ -5,6 +5,7 @@ import './App.css'
 
 import About from "./pages/About"
 import Shop from "./pages/Shop"
+import Videos from "./pages/Videos"
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
@@ -18,6 +19,10 @@ function App() {
 	{
 	    path: "/shop",
 	    element: <Shop />
+	},
+	{
+	    path: "/videos",
+	    element: <Videos />
 	}
     ]);
 
