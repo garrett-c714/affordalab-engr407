@@ -287,9 +287,15 @@ body {
 .vid-content {
     display: grid;
     grid-template-columns: 3fr 2fr;
+    place-items: center;
 }
 
 .vid-c-vid {
+    display: flex;
+    justify-content: center;
+}
+
+.vid-c-vid a {
     display: flex;
     justify-content: center;
 }

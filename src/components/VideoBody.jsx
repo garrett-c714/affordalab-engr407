@@ -10,7 +10,8 @@ const VideoBody = () => {
 	{
 	    title: 'Kelvin Explains: Centrifugal "Force"',
 	    desc: "The video companion to the Centripetal & Cengrifugal experiment in your starter kit! In this video, Kelvin explains why what we observe during this experiment may not be the same as what we expect to see, and why that happens.",
-	    video: centVidAsset
+	    video: centVidAsset,
+	    link: "https://youtu.be/-xy2qF15gXg"
 	}
     ]
     

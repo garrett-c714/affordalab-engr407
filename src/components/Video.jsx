@@ -13,7 +13,7 @@ const Video = props => {
 		    <p className="monst">{vid.desc}</p>
 		</div>
 		<div className="vid-c-vid">
-		    <img src={vid.video} alt="Video Thumbnail" />
+		    <a href={vid.link} target="_blank"><img src={vid.video} alt="Video Thumbnail" /></a>
 		</div>
 	    </div>
 	    <hr />
